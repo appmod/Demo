@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="org.thosp.yourlocalweather.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/preference_title_activity_general"/>
+    <header
+        android:fragment="org.thosp.yourlocalweather.SettingsActivity$UnitsPreferenceFragment"
+        android:title="@string/preference_title_category_units"/>
+    <header
+        android:fragment="org.thosp.yourlocalweather.SettingsActivity$UpdatesPreferenceFragment"
+        android:title="@string/preference_title_category_location_weather"/>
+    <header
+        android:fragment="org.thosp.yourlocalweather.SettingsActivity$NotificationPreferenceFragment"
+        android:title="@string/pref_title_category_notification"/>
+    <header
+        android:fragment="org.thosp.yourlocalweather.SettingsActivity$PowerSavePreferenceFragment"
+        android:title="@string/preference_title_power_save"/>
+    <header
+        android:fragment="org.thosp.yourlocalweather.SettingsActivity$WidgetPreferenceFragment"
+        android:title="@string/preference_title_activity_widget"/>
+    <header
+        android:fragment="org.thosp.yourlocalweather.SettingsActivity$DebugOptionsPreferenceFragment"
+        android:title="@string/debug_category_title"/>
+    <header
+        android:fragment="org.thosp.yourlocalweather.SettingsActivity$AboutPreferenceFragment"
+        android:title="@string/preference_title_activity_about"/>
+</preference-headers>
